@@ -1,0 +1,88 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.app-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: #ffffff;
+  height: 35vh;
+  width: 40vw;
+  border-radius: 20px;
+  padding: 20px;
+}
+.emoji-sizing {
+  height: 100px;
+  width: 100px;
+  padding-bottom: 10px;
+}
+.emojis-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+.button {
+  background-color: #ffffff;
+  border: none;
+}
+.heading {
+  font-size: 28px;
+  text-align: center;
+}
+.image-sizing {
+  height: 60px;
+  width: 60px;
+}
+.thank-you-container {
+  padding: 30px;
+  text-align: center;
+}
+.thank-you-heading {
+  padding-bottom: 20px;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .card-container {
+    height: 40vh;
+    width: 50vw;
+  }
+  .emoji-name {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .card-container {
+    height: 40vh;
+    width: 60vw;
+  }
+  .emoji-name {
+    font-size: 20px;
+  }
+  .feedback-heading {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card-container {
+    height: 35vh;
+    width: 80vw;
+  }
+  .emoji-sizing {
+    height: 70px;
+    width: 70px;
+  }
+  .heading {
+    font-size: 16px;
+  }
+}
